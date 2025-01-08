@@ -1,0 +1,36 @@
+
+main{
+  width: 1320px;
+  margin: 0 auto;
+}
+.title{
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+  
+}
+
+.sub-title{
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+margin-top: 16px;
+
+}
+.banner-title{
+  text-align: center;
+  padding: 137px 344px 137px 344px;
+  
+}
+.banner{
+  width: 1320px;
+height: 600px;
+border-radius: 16px;
+border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+}
