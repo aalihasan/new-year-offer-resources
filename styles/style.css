@@ -4,7 +4,9 @@
   padding: 0%;
 }
 
+
 /* banner styles */
+
 
 main{
   width: 1320px;
@@ -199,4 +201,141 @@ font-weight: 700;
 line-height: 24px;
 
 
+}
+
+
+/* new best offer */
+.best-offer-container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.image-border{
+  border-radius: 100%;
+width: 463px;
+height: 463px;
+box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0) ;
+background-image: url(../images/Ellipse\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+.best-offer-title{
+  width: 393px;
+height: 255px;
+line-height: 22px;
+padding-top: 104px;
+}
+.best-offer-title p{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.best-offer-title h1{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+}
+.best-offer-title span{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;;
+text-align: left;
+}
+
+.year {
+width: 300px;
+padding-right: 50px;
+line-height: 20px;
+padding-top: 112px;
+}
+
+.year h1{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+}
+.year p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.year img{
+  margin-top: 50px;
+}
+
+/* Holidays Sale styles */
+
+.function{
+  text-align: center;
+width: 1068px;
+align-items: center;
+margin: 0 auto;
+
+}
+
+.function h5{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+text-align: center;
+
+}
+.function h1{
+  font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+.function p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+.holiday-offer{
+display: flex;
+border-radius: 16px 0px 16px 16px;
+background-image: url(../images/Rectangle\ 2.png);
+background-repeat: no-repeat;
+background-position:bottom;
+;
+  
+}
+.image-bg{
+width: 796px;
+height: 662px;
+}
+.disount{
+  width: 796.46px;
+height: 662.07px;
+padding-right: 100px;
 }
