@@ -1,36 +1,159 @@
 
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* banner styles */
+
 main{
   width: 1320px;
   margin: 0 auto;
 }
 .title{
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: Merriweather;
 font-size: 32px;
-font-weight: 400;
 text-align: center;
-  
 }
 
 .sub-title{
   color: rgb(255, 255, 255);
 font-family: Merriweather;
 font-size: 72px;
-font-weight: 900;
 text-align: center;
-margin-top: 16px;
+
 
 }
 .banner-title{
-  text-align: center;
-  padding: 137px 344px 137px 344px;
+width: 632px;
+height: 246px;
+padding: 177px 344px 177px 344px;
+ 
   
 }
 .banner{
   width: 1320px;
-height: 600px;
+  height: 600px;
+
 border-radius: 16px;
+background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* ALL CATEGORIES styles */
+
+.categories{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.catagories-title{
+  margin: 0 auto;
+  width: 802px;
+height: 806px;
+
+}
+
+.sub-catagories{
+  text-align: center;
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+
+}
+.para-title{
+ color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.all-catagories{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.margin{
+  margin-top:120px;
+}
+
+/* Welcome to midnight party styles */
+.midnight{
 border-radius: 16px;
 
-background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+}
+.midnight-section{
+display: flex;
+gap: 94px;
+
+}
+.midnight-image{
+
+width: 349px;
+height: 464px;
+padding: 67px 108px 68px 0px;
+
+
+}
+.midnight-container{
+  padding: 126px 0px 0px 126px ;
+}
+.title-midnight{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+width: 642px;
+height: 176px;
+
+
+}
+
+  .midnight-para{
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+width: 697px;
+height: 60px;
+margin-bottom: 48px;
+
+
+
+  }
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+padding: 0px 0 px 142px 158px;
+
 }
