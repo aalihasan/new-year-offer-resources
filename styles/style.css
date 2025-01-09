@@ -9,7 +9,7 @@
 
 body{
   width: 1530px;
-  border: 5px dotted black;
+
   
   margin: 0 auto;
 }
@@ -477,7 +477,7 @@ padding-left: 50px;
 
 footer{
   width: 1530px;
-  height: 609px;
+  height: 700px;
   background: rgb(7, 2, 17);
   margin: 0 auto;
 
@@ -539,6 +539,7 @@ align-content: space-between;
   width: 1320px;
   color: brown;
   margin: 0 auto;
+
   
   
 }
@@ -563,4 +564,5 @@ line-height: 29px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 120px;
+
 }
