@@ -344,9 +344,9 @@ padding-right: 100px;
 
 .Portfolio{
  width: 1320px;
+height: 1163px;
 }
 .best-gifts{
-  margin-bottom: 30px;
   width: 896px;
 }
 
@@ -378,6 +378,7 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 25px;
 }
 
 .box-image{
@@ -385,10 +386,84 @@ width: 424px;
 height: 450px;
 border-radius: 16px;
 
+
 }
 
 .image-box{
   display: flex;
   gap: 24px;
   margin: 0 auto;
+}
+
+/* Subscribe Newsletter styles */
+.newsletter{
+  height: 616px;
+ border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+ 
+}
+
+.news-image img{
+  width: 150px;
+height: 150px;
+margin-top: 86px;
+}
+.image-news{
+text-align: center;
+margin: 0 auto;
+height:336px ;
+width: 896;
+}
+.news-title h1{
+color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin: 40px 0px 22px 0px;
+letter-spacing: 0%;
+
+
+}
+.news-title p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+width: 896px;
+margin: 0 auto;
+margin-bottom: 48px;
+
+}
+
+.subscribe{
+  display: flex;
+width: 648px;
+align-items: center;
+height: 72px;
+border-radius: 50px;
+background: rgb(255, 255, 255);
+margin: 0 auto;
+
+
+}
+.subscribe span{
+text-align: left;
+margin-right: 265px;
+color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+padding-left: 50px;
+}
+.subscribe-button{
+  align-items: end;
+  border-radius: 0px 50px 50px 0px;
+  height: 72px;
+  width: 210px;
+  
+
 }
