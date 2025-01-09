@@ -157,3 +157,46 @@ letter-spacing: 0%;
 padding: 0px 0 px 142px 158px;
 
 }
+
+/* title information */
+
+.title-description {
+  text-align: center;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+
+height: 272px;
+
+
+}
+.information{
+  border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+padding: 100px 300px 110px 300px;
+line-height: 100px;
+
+}
+
+h1 span{
+  color: red;
+}
+
+button{
+  border: none;
+width: 167px;
+height: 56px;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+
+
+}
